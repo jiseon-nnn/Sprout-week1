@@ -1,0 +1,18 @@
+*{
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  gap: 10px
+}
+
+input {
+  padding: 0 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: gainsboro;
+  border-color: gray;
+}
