@@ -21,12 +21,6 @@ function App() {
   )
 }
 
-// function CountInput({inputValue}) {
-//   return (
-//     <input type='number' value={inputValue} />
-//   )
-// }
-
 function PlusBtn ({setCount, inputValue}) {
   return(
     <button onClick={()=> setCount(prev => prev + inputValue)}>+</button>
